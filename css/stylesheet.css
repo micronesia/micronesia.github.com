@@ -1,0 +1,10 @@
+body {
+	background-image: url('../pics/bg_stars.jpg');
+	background-color: grey;
+}
+
+#header {
+	display: inline-block;
+	margin: 0px auto;
+}
+
