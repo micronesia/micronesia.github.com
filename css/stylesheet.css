@@ -5,25 +5,50 @@ body {
 
 .header {
 	display: block;
-	margin: 0 auto;
+	margin: auto;
 	margin-top: -8px;
 	border: 2px solid black;
 }
 
 .navbar {
-	/*display: inline-block;*/
 	background-image: url('../pics/grad.png');
-	/*display: block;*/
 	height: 34px;
 	width: 696px;
-	margin: 0 auto;
-	/*margin-top: -8px;*/
+	margin: auto;
 	border-right: 2px solid black;
 	border-bottom: 2px solid black;
 	border-left: 2px solid black;
 }
 
-#overview {
+.divider {
+	margin-left: 9px;
+	/*display: inline-block;*/
+	position: relative;
+	top: -1px;
+}
+
+.navitem {
 	margin-top: 3px;
+}
+
+#overview {
 	margin-left: 17px;
+}
+
+#rules {
+	margin-left: 5px;
+	margin-right: -3px;
+}
+
+#schedule {
+	margin-left: 8px;
+}
+
+#coverage {
+	margin-left: 9px;
+	margin-right: 1px;
+}
+
+#sponsor {
+	margin-left: 10px;
 }
