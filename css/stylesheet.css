@@ -20,35 +20,35 @@ body {
 	border-left: 2px solid black;
 }
 
-.divider {
+.navbar > img {
 	margin-left: 9px;
-	/*display: inline-block;*/
 	position: relative;
 	top: -1px;
 }
 
-.navitem {
+.navbar > a > img{
 	margin-top: 3px;
 }
 
-#overview {
-	margin-left: 17px;
+.navbar > a:first-child img /* overview */
+{
+    margin-left:17px;
 }
-
-#rules {
-	margin-left: 5px;
-	margin-right: -3px;
+.navbar > a:nth-child(2) img /* rules */
+{
+    margin-left:5px;
+    margin-right:-3px;
 }
-
-#schedule {
-	margin-left: 8px;
+.navbar > a:nth-child(3) img /* Schedule */
+{
+    margin-left:8px;
 }
-
-#coverage {
-	margin-left: 9px;
-	margin-right: 1px;
+.navbar > a:nth-child(4) img /* Coverage */
+{
+    margin-left:9px;
+    margin-right:1px;
 }
-
-#sponsor {
-	margin-left: 10px;
+.navbar > a:last-child img /* Sponsor */
+{
+    margin-left:10px;
 }
